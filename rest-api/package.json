@@ -1,0 +1,17 @@
+{
+  
+  "name": "rest-api",
+  "description": "Hi, I'm a total noob who just learned about APIs and wants to share my dumbed-down understanding. Please be gentle if I get stuff wrong!",
+  "version": "1.0.0",
+  "main": "restApi.js",
+  "devDependencies": {},
+  "type":"module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
