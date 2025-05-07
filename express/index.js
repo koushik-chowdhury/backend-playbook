@@ -12,5 +12,10 @@ app.get('/about',(req,res)=>{
     return res.send(`Hey ${req.query.name} welcome to about page`)
 
 })
+app.get('/contact',(req,res)=>{
+    console.log('req from about')
+    return res.send(`Hey welcome to Contact page`)
+
+})
 
 app.listen(8000,()=> console.log("Server Started"))
